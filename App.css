@@ -1,0 +1,144 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+
+}
+.Navbar-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background: black; /* Updated */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Logo text */
+.Logo {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.Logo:hover {
+  cursor: pointer;
+}
+
+/* Navbar layout */
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  background-color: rgba(255, 255, 255, 0.05); /* translucent white */
+  backdrop-filter: blur(10px);
+  box-shadow: rgba(137, 43, 226, 0.3) 0px 20px 30px -10px; /* purple glow */
+}
+
+/* Navigation links */
+.Nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.Nav-links li a {
+  text-decoration: none;
+  color: #dcdcdc;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.Nav-links li a:hover {
+  color: white;
+}
+
+/* Login button */
+.Log {
+  padding: 0.5rem 1.2rem;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background-color: transparent;
+  color: #e0d7f9;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.Log:hover {
+  border: 1px solid white;
+  color: white;
+}
+.Hero-section{
+  background-color: black;
+  border: 1px solid black;
+  width: 100%;
+  height: 87.55vh;
+}
+.Background{
+  width: 100%;
+  height: 87.5vh;
+  z-index: -1;
+}
+
+.Content{
+  position: absolute;
+  top: 40%;
+  width: 99.9%;
+
+  text-align: center;
+  z-index: 10;
+  font-family: 'Segoe UI', sans-serif;
+}
+.Paragraph{
+  
+  width: 99.9%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.para-content{
+padding: 1rem;
+color: gray;
+width: 39rem;
+cursor: pointer;
+}
+.para-content:hover{
+  color: white;
+  cursor: pointer;
+}
+.Btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.Btn-Learn, .Btn-join {
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(10px);
+  box-shadow: rgba(137, 43, 226, 0.3) 0px 10px 20px -5px;
+}
+
+.Btn-Learn {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #dcdcdc;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.Btn-Learn:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+}
+
+.Btn-join {
+  background-color: #8a2be2;
+  color: white;
+}
+
+.Btn-join:hover {
+  background-color: #a855f7;
+  transform: scale(1.05);
+}
